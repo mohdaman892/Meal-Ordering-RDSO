@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/button1"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="@string/sign_up"
+             />
+    <info.hoang8f.widget.FButton
+        android:id="@+id/button2"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/sign_in"
+        android:layout_alignParentEnd="true" />
+    <info.hoang8f.widget.FButton
+        android:id="@+id/button5"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:text="Exit App" />
+
+
+    <ImageView
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/logo"
+        android:contentDescription="@string/todo" />
+
+</RelativeLayout>

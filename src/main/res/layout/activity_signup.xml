@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Signup">
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/phone"
+        android:layout_width="403dp"
+        android:layout_height="137dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:drawableBottom="@color/common_google_signin_btn_text_dark_focused"
+        android:drawablePadding="25dp"
+        android:drawingCacheQuality="high"
+        android:hint="@string/phone_number"
+        android:inputType="text"
+        android:textColor="#020000"
+        android:textSize="35sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:met_textColorHint="@color/cardview_light_background"
+        app:met_textColor="@color/cardview_light_background"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/name"
+        android:layout_width="403dp"
+        android:layout_height="137dp"
+        android:layout_marginTop="264dp"
+        android:drawableBottom="@color/common_google_signin_btn_text_dark_focused"
+        android:drawablePadding="25dp"
+        android:drawingCacheQuality="high"
+        android:hint="Name"
+        android:inputType="text"
+        android:textColor="#020000"
+        android:textSize="35sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:met_textColorHint="@color/cardview_light_background"
+        app:met_textColor="@color/cardview_light_background"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/pnr"
+        android:layout_width="403dp"
+        android:layout_height="137dp"
+        android:layout_marginTop="432dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:drawableEnd="@color/common_google_signin_btn_text_dark_focused"
+        android:drawableBottom="@color/common_google_signin_btn_text_dark_focused"
+        android:hint="PNR no"
+        android:inputType="text"
+        android:singleLine="true"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:met_textColorHint="@color/cardview_light_background"
+        app:met_textColor="@color/cardview_light_background"/>
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/button1"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="592dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginRight="132dp"
+        android:text="@string/sign_up"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>
